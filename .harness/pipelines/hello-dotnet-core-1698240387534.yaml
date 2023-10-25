@@ -6,9 +6,9 @@ pipeline:
   properties:
     ci:
       codebase:
-        build: <+input>
         connectorRef: account.Github_OAuth_1698212672976
-        repoName: hello-dotnet-core
+        repoName: jruels/hello-dotnet-core
+        build: <+input>
   stages:
     - stage:
         identifier: build
